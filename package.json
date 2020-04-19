@@ -1,0 +1,43 @@
+{
+  "name": "pineger-backend",
+  "version": "1.0.0",
+  "description": "Backend client for hosting we meetings",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "nodemon server.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js",
+    "watch:server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smagnuson19/pineger-backend.git"
+  },
+  "author": "Scott Magnuson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smagnuson19/pineger-backend/issues"
+  },
+  "homepage": "https://github.com/smagnuson19/pineger-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "nodemon": "^2.0.3"
+  }
+}
